@@ -1,3 +1,7 @@
+__NOTE__: This repository has moved to https://github.com/openstack-charmers/charm-interface-bgp.git
+
+
+
 # Overview
 Testing and developing code for use in advanced networking topologies can be
 challenging without a test environment.
