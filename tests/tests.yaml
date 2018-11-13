@@ -1,0 +1,12 @@
+charm_name: quagga
+gate_bundles:
+- base-deploy
+- spine-leaf
+smoke_bundles:
+- base-deploy
+dev_bundles:
+- spine-leaf
+configure:
+- zaza.charm_tests.noop.setup.basic_setup
+tests:
+- zaza.charm_tests.noop.tests.NoopTest

@@ -3,3 +3,4 @@ flake8
 mock
 nose
 git+https://github.com/openstack/charms.openstack#egg=charms.openstack
+git+https://github.com/openstack-charmers/zaza.git#egg=zaza

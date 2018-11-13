@@ -1,0 +1,13 @@
+series: bionic
+relations:
+- - peer0:bgpserver
+  - peer1:bgpclient
+applications:
+  peer0:
+    series: bionic
+    charm: ../../../quagga
+    num_units: 1
+  peer1:
+    series: bionic
+    charm: ../../../quagga
+    num_units: 1
